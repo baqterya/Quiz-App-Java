@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/question_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    app:cardBackgroundColor="@color/new_primary_variant"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/category_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/new_on_primary"
+            android:text="@string/category_name_dummy"/>
+
+        <TextView
+            android:id="@+id/word_interface_element"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/category_name_text_view"
+            android:textSize="18sp"
+            android:textColor="@color/new_on_primary"
+            android:text="@string/word"/>
+
+        <TextView
+            android:id="@+id/word_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/word_interface_element"
+            android:layout_marginBottom="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/new_on_primary"
+            android:text="@string/word_dummy"/>
+
+        <TextView
+            android:id="@+id/translation_interface_element"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/word_text_view"
+            android:textSize="18sp"
+            android:textColor="@color/new_on_primary"
+            android:text="@string/translation"/>
+
+        <TextView
+            android:id="@+id/translation_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/translation_interface_element"
+            android:textSize="24sp"
+            android:textColor="@color/new_on_primary"
+            android:text="@string/translation_dummy"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

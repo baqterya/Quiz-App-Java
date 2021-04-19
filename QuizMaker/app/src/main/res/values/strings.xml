@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuizMaker</string>
+    <string name="title">QUIZMAKER</string>
+    <string name="start">START</string>
+    <string name="create_question_set">MANAGE QUESTIONS</string>
+    <string name="exit">EXIT</string>
+    <string name="edit">EDIT</string>
+    <string name="create">CREATE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_name_dummy">CATEGORY NAME DUMMY</string>
+    <string name="word">WORD:</string>
+    <string name="word_dummy">WORD DUMMY</string>
+    <string name="translation">TRANSLATION:</string>
+    <string name="translation_dummy">TRANSLATION DUMMY</string>
+    <string name="add">ADD</string>
+    <string name="new_word">NEW WORD</string>
+    <string name="new_translation">NEW TRANSLATION</string>
+    <string name="new_category">NEW CATEGORY</string>
+    <string name="save">Save</string>
+    <string name="cancel">CANCEL</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="what_does_it_mean">WHAT DOES IT MEAN?</string>
+    <string name="question_dummy">QUESTION DUMMY</string>
+    <string name="answer_dummy">ANSWER DUMMY</string>
+    <string name="you_got">YOU GOT</string>
+    <string name="points">POINTS</string>
+</resources>
